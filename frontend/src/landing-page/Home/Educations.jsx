@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Education() {
     return (
@@ -14,12 +15,12 @@ function Education() {
                
                    <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
                    
-                   <a className= 'mr-4' href="">Varsity  <i class="fa-solid fa-right-long"></i></a>
+                   <Link className= 'mr-4' to="">Varsity  <i class="fa-solid fa-right-long"></i></Link>
 
                  <p> TradingQ&A, the most active trading and investment community in India for all your market related queries.</p> 
 
-                 <a className= 'mr-4' href=""> 
-          TradingQ&A<i class="fa-solid fa-right-long"></i></a>
+                 <Link className= 'mr-4' to=""> 
+          TradingQ&A<i class="fa-solid fa-right-long"></i></Link>
         </div>
 
     </div>
