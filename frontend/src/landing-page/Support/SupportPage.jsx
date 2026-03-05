@@ -1,8 +1,11 @@
 import React from 'react';
+import RiaseTicket from './RiaseTicket';
+import Hero from './Hero';
 function SupportPage() {
       return(
         <div>
-             SupportPage
+          <Hero/>
+             <RiaseTicket/>
         </div>
       );
 }
