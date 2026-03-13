@@ -269,6 +269,16 @@ mongoose.connect(URL)
     console.log(err);
 });
 
+app.get("/addHoldings", async(req,res) =>{
+    let allHoldings= await  HoldingModel.find({});
+    res.json(allHoldings);
+});
+
+app.get("/allPositions", async(req,res) =>{
+    let allPositions= await PositionModel.find({});
+    res.json(allPositions);
+});
+
 app.listen(3000, () => {
     console.log("Server start ho gaya");
 });
