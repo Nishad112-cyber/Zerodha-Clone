@@ -1,4 +1,5 @@
 import React from "react";
+import kamathImg from '../../images/nithinKamath.jpg';
 function Team() {
   return (
     <div className="container">
@@ -7,7 +8,7 @@ function Team() {
       </div>
       <div className="row p-5">
         <div className="col-6  mt-5">
-         <img src="images/nithinKamath.jpg" alt="Kamath" class="circle-img"
+         <img src={kamathImg} alt="Kamath" className="circle-img" 
           style={{
             width: "325px",
     height: "325px",

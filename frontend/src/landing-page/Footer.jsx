@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../images/logo.svg';
 
 function Footer() {
     return ( 
@@ -6,7 +7,7 @@ function Footer() {
         <div className='container border-top mt-5'>
          <div className='row mt-5'>
            <div className='col'>
-            <img src="images/logo.svg" alt="Logo" style={{width:"40%"}} />
+            <img src={logoImg} alt="Logo" style={{width:"40%"}} />
             <p>
                  &copy; 2010 - 2026, Zerodha Broking Ltd.
                 All rights reserved.

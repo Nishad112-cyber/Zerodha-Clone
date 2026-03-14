@@ -1,12 +1,13 @@
 import React from 'react';
+import brokerImg from '../../images/largestBroker.svg';
 function Award() {
     return (  
         <div className='container'>
             <div className='row'>
                 <div className='col-6 mt-5'>
-                <img src="images/largestBroker.svg" 
+                <img src={brokerImg} alt="largestBroker" 
                  style={{width:"90%"}}
-                alt="Awarded" />
+                 />
                 </div>
                 <div className='col-6 mt-5 '>
                     <h2>Largest stack broker in india</h2>

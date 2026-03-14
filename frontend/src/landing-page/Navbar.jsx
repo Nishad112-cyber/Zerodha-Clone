@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logoImg from '../images/logo.svg';
 function Navbar() {
   return (
     
       <nav class="navbar navbar-expand-lg border-buttom">
         <div className="container p-2 ">
           <Link class="navbar-brand" to="/">
-            <img src="images/logo.svg" style={{width:"25%"}} alt="log" />
+           <img src={logoImg} style={{width:"25%"}} alt="log" />
           </Link>
           <button
             class="navbar-toggler"

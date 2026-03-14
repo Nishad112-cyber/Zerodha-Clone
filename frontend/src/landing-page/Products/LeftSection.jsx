@@ -1,4 +1,6 @@
 import React from "react";
+import googlePlayImg from '../../images/googlePlayBadge.svg';
+import appstoreImg from '../../images/appstoreBadge.svg';
 function LeftSection({
   imageURL,
   productName,
@@ -23,10 +25,10 @@ function LeftSection({
           </div>
           <div className="p-3 ">
                <a href={googlePlay}>
-            <img src="images/googlePlayBadge.svg" />
+            <img src={googlePlayImg} alt="Google Play" />
           </a>
           <a href={appStore} style={{marginLeft:"50px"}}>
-            <img src="images/appstoreBadge.svg" />
+           <img src={appstoreImg} alt="App Store" />
           </a>
           </div>
          

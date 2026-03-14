@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import educationImg from '../images/education.svg';
+import educationImg from '../../images/education.svg';
 
 function Education() {
     return (

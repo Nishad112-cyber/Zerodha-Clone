@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ecosystemImg from '../../images/ecosystem.png';
 
 function Statats() {
     return (
@@ -22,7 +23,7 @@ function Statats() {
             
           </div>
           <div className='col-6 p-5'>
-            <img src="images/ecosystem.png" style={{width:"95%"}} alt="ecosystem" />
+           <img src={ecosystemImg} style={{width:"95%"}} alt="ecosystem" />
             <div  className='link p-5 '>
                 <a href="">Explore our products <i class="fa-solid fa-right-long"></i></a>
                 <Link  className= 'mr-4' to="">Try Kite demo <i class="fa-solid fa-right-long"></i></Link>
