@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import educationImg from '../images/education.svg';
 
 function Education() {
     return (
       <div className='container mt-5'>
     <div className='row'>
         <div className='col-4'>
-          <img src="images/education.svg" alt="education" />
+          <img src={educationImg} alt="education" />
         </div>
         <div className='col-2'></div>
         <div className='col-6'>
